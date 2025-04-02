@@ -12,7 +12,6 @@ function fetcData() {
 function App() {
   const type = fetcData();
   const { setSelectedType,data,selectedType } = usePokemon();
-  console.log(data.length);
   
   return (
     <>
