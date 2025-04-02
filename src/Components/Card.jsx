@@ -14,8 +14,10 @@ const typeColors = {
   dragon: "#6F35FC",
 };
 export default function Card({ pokemon, type }) {
+  // console.log(type);
+  
   return (
-    <div className="h-auto mt-5 gap-2 w-full md:px-5 justify-center md:gap-5 flex-wrap rounded-lg flex">
+    <div className="h-auto mt-5 gap-2 w-full md:px-5 justify-center md:gap-5 flex-wrap rounded-lg flex"> 
       {pokemon.map((item, key) => (
         <div
           key={key}
